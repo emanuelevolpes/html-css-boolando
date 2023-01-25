@@ -20,6 +20,9 @@ Debug
     height: 70px;
 }
 
+.debug .container-footer{
+    height: 110px;
+}
 
 /*
 ---------
@@ -112,3 +115,29 @@ Main
 Footer
 ---------
 */
+
+.container-footer{
+    background-color: #1a1a1a;
+    border-bottom: 1px solid white;
+    margin-top: 60px;
+    padding: 30px 270px 30px 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h2{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.social ul li .fa-brands{
+    font-size: 20px;
+    margin: 5px;
+}
+
+.info ul li a{
+    color: white;
+
+}
