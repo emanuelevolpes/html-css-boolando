@@ -9,3 +9,106 @@ Reset
     padding: 0;
     box-sizing: border-box;
 }
+
+/*
+---------
+Debug
+---------
+*/
+
+.debug .container{
+    height: 70px;
+}
+
+
+/*
+---------
+Common
+---------
+*/
+
+body{
+    font-family: 'Roboto', sans-serif; 
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+
+.logo{
+    height: 35px;
+    width: 140px;
+}
+
+img{
+    display: block;
+    width: 450px;
+    height: 645px;
+}
+
+/*
+---------
+Header
+---------
+*/
+
+header{
+    background-color: #ff6900;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1385px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.uomo-donna-bambini{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.container-logo{
+    width: 60%;
+    padding: 0 345px 0 345px;
+}
+
+.container-shopping{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    gap: 10px;
+}
+
+/*
+---------
+Main
+---------
+*/
+
+
+.container-main-shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 37px;
+}
+
+
+/*
+---------
+Footer
+---------
+*/
