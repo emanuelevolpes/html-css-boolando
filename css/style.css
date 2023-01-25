@@ -4,7 +4,7 @@ Reset
 ---------
 */
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,11 +16,11 @@ Debug
 ---------
 */
 
-.debug .container{
+.debug .container {
     height: 70px;
 }
 
-.debug .container-footer{
+.debug .container-footer {
     height: 110px;
 }
 
@@ -30,41 +30,49 @@ Common
 ---------
 */
 
-body{
-    font-family: 'Roboto', sans-serif; 
+body {
+    font-family: 'Roboto', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul{
+ul {
     list-style: none;
     display: flex;
     gap: 10px;
     color: white;
 }
 
-.logo{
+.logo {
     height: 35px;
     width: 140px;
 }
 
-img{
+img {
     display: block;
     width: 450px;
     height: 645px;
 }
 
-strong{
+strong {
     color: red;
 }
 
-h3{
+h3 {
     display: inline-block;
     margin-left: 10px;
     text-decoration: line-through;
     font-size: 16px;
+}
+
+.cuore {
+    color: black;
+}
+
+.cuore1 {
+    color: red;
 }
 
 /*
@@ -73,31 +81,33 @@ Header
 ---------
 */
 
-header{
-    background-color: #ff6900;
+
+li>a {
+    color: white;
 }
 
-.container{
+.container {
+    background-color: #ff6900;
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 1385px;
     margin: 0 auto;
     margin-bottom: 60px;
+    padding: 25px 0;
 }
 
-.uomo-donna-bambini{
+.uomo-donna-bambini {
     width: 20%;
     display: flex;
     justify-content: center;
 }
 
-.container-logo{
+.container-logo {
     width: 60%;
     padding: 0 345px 0 345px;
 }
 
-.container-shopping{
+.container-shopping {
     width: 20%;
     display: flex;
     justify-content: center;
@@ -111,8 +121,7 @@ Main
 ---------
 */
 
-
-.container-main-shop{
+.container-main-shop {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -120,24 +129,100 @@ Main
     gap: 37px;
 }
 
-h2{
+
+h2 {
     font-size: 20px;
 }
 
-.img1{
+.img1 {
     display: block;
 }
 
-.img1b{
+.img1b {
     display: none;
 }
 
-.product1:hover .img1{
+.product1:hover .img1 {
     display: none;
 }
 
-.product1:hover .img1b{
+.product1:hover .img1b {
     display: block;
+}
+
+.cuore {
+    display: block;
+}
+
+.cuore1 {
+    display: none;
+}
+
+.heart:hover .cuore {
+    display: none;
+}
+
+.heart:hover .cuore1 {
+    display: block;
+}
+
+.product1 {
+    position: relative;
+}
+
+.heart {
+    margin-top: 10px;
+    padding: 15px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+}
+
+.fa-sharp .fa-solid .fa-heart {
+    color: black;
+}
+
+.sale {
+    margin-bottom: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: red;
+    padding: 5px 10px;
+}
+
+.sale a {
+    color: white;
+}
+
+.eco {
+    margin-bottom: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    background-color: green;
+    padding: 5px 10px;
+}
+
+.eco a {
+    color: white;
+}
+
+.eco1 {
+    margin-bottom: 40px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: green;
+    padding: 5px 10px;
+}
+
+.eco1 a {
+    color: white;
 }
 
 /*
@@ -146,7 +231,7 @@ Footer
 ---------
 */
 
-.container-footer{
+.container-footer {
     background-color: #1a1a1a;
     border-bottom: 1px solid white;
     margin-top: 60px;
@@ -156,18 +241,18 @@ Footer
     align-items: center;
 }
 
-footer h2{
+footer h2 {
     color: white;
     font-size: 20px;
     margin-bottom: 5px;
 }
 
-.social ul li .fa-brands{
+.social ul li .fa-brands {
     font-size: 20px;
     margin: 5px;
 }
 
-.info ul li a{
+.info ul li a {
     color: white;
 
 }
