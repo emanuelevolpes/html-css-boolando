@@ -81,12 +81,15 @@ Header
 ---------
 */
 
-
 li>a {
     color: white;
 }
 
 .container {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
     background-color: #ff6900;
     display: flex;
     justify-content: center;
@@ -127,8 +130,8 @@ Main
     justify-content: center;
     align-items: center;
     gap: 37px;
+    margin-top: 130px;
 }
-
 
 h2 {
     font-size: 20px;
