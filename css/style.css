@@ -107,7 +107,8 @@ li>a {
 
 .container-logo {
     width: 60%;
-    padding: 0 345px 0 345px;
+    display: flex;
+    justify-content: center;
 }
 
 .container-shopping {
@@ -153,20 +154,8 @@ h2 {
     display: block;
 }
 
-.cuore {
-    display: block;
-}
-
-.cuore1 {
-    display: none;
-}
-
-.heart:hover .cuore {
-    display: none;
-}
-
-.heart:hover .cuore1 {
-    display: block;
+.product1 .heart:hover{
+    color: red;
 }
 
 .product1 {
@@ -174,13 +163,12 @@ h2 {
 }
 
 .heart {
-    margin-top: 10px;
     padding: 15px;
     width: 50px;
     height: 50px;
     background-color: white;
     position: absolute;
-    top: 0;
+    top: 10px;
     right: 0;
     font-size: 20px;
 }
@@ -190,9 +178,8 @@ h2 {
 }
 
 .sale {
-    margin-bottom: 40px;
     position: absolute;
-    bottom: 0;
+    bottom: 40px;
     left: 0;
     background-color: red;
     padding: 5px 10px;
@@ -203,9 +190,8 @@ h2 {
 }
 
 .eco {
-    margin-bottom: 40px;
     position: absolute;
-    bottom: 0;
+    bottom: 40px;
     left: 60px;
     background-color: green;
     padding: 5px 10px;
@@ -216,9 +202,8 @@ h2 {
 }
 
 .eco1 {
-    margin-bottom: 40px;
     position: absolute;
-    bottom: 0;
+    bottom: 40px;
     left: 0;
     background-color: green;
     padding: 5px 10px;
